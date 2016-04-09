@@ -1,0 +1,76 @@
+body {
+  position: relative;
+  bottom: 0;
+  padding: 0;
+  padding-top: 170px;
+  margin: 0 auto;
+  max-width: 75%;
+  
+}
+
+.images {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px 0 0 0;
+  padding: 0;
+  text-align: center;
+  color:gray;
+  font-size: .5em;
+  text-align: right;
+}
+#header img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+h1 {
+  font-family: helvetica;
+  font-size: 3em;
+}
+h2 {
+  font-family: cursive;
+}
+
+p {
+  max-width: 900px;
+}
+
+a:visited {
+  color: red;
+}
+
+@media screen and (max-width: 600px){
+  .images {
+    width: 50%;
+    display:block;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  body {
+    display: block;
+  }
+}
+
+nav{
+  background-image: url(macau-doodles-vector-859914.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  font-size: 1.5em;
+}
+
+
